@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Login from './views/Login';
-import Pruebas from './views/Pruebas';
+import Ticket from './views/Ticket';
 import Register from './views/Register';
 import PrivateRoute from './components/Auth';
 
@@ -12,7 +12,7 @@ const App = () => {
       <div className="App">
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/pruebas" element={<PrivateRoute component={Pruebas} />} />
+          <Route path="/ticket" element={<Ticket/>}/>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<PrivateRoute component={Register} />} />
         </Routes>
