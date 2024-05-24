@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import UserDatos from '../components/UserDatos';
 import Footer from '../components/Footer';
+import "../Styles/PruebasNav.css";
 
 
 function PruebasNav() {
