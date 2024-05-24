@@ -2,9 +2,9 @@ import React from 'react';
 import '../Styles/FormSolicitud.css';
 import '../Styles/boton1.css';
 
+
 function Ticket() {
-  return (
-          
+  return (       
                 <div className='form-solicitud'>
                         <div className='form-box-h3'>
                             <h3 >Solicitud de Mesa de Ayuda</h3>   
@@ -83,7 +83,7 @@ function Ticket() {
                         
                         </div>
                         
-                    </div>
+                    
                         <div className='container-btn' >
                             <button className='btn success'>
                             Enviar
@@ -92,6 +92,7 @@ function Ticket() {
                             Volver
                             </button>
                         </div>
+                    </div>
                 </div>
           
   );
