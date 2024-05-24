@@ -5,6 +5,7 @@ import Login from './views/Login';
 import Pruebas from './views/Pruebas';
 import Register from './views/Register';
 import PrivateRoute from './components/Auth';
+import PruebasNav from './views/PruebasNav';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/pruebas" element={<PrivateRoute component={Pruebas} />} />
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<PrivateRoute component={Register} />} />
+          <Route path="/PruebasNav" element={<PruebasNav/>} />
         </Routes>
       </div>
     </Router>
