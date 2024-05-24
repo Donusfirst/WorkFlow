@@ -8,7 +8,7 @@
   position: fixed;
   width: 100%;
   bottom: 0;
-  height: 60px; /* Establece una altura fija para el footer */
+  height: 60px; /* Establece una altura  */
 }
 
 .Contenido-izq {
@@ -17,7 +17,7 @@
 }
 
 .company-logo {
-  height: 60px; /* Ajusta la altura máxima del logo */
+  height: 60px; /*Altura máxima del logo */
 }
 
 .Contenido-Derecho {
