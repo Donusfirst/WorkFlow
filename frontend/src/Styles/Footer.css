@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #29335c;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 60px; /* Establece una altura fija para el footer */
+}
+
+.Contenido-izq {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  height: 60px; /* Ajusta la altura máxima del logo */
+}
+
+.Contenido-Derecho {
+  display: flex;
+  align-items: center;
+}
