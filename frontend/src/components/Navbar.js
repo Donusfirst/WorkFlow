@@ -23,7 +23,6 @@ function Navbar() {
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>
-                    x
                 </button>
             </nav>
             <button
