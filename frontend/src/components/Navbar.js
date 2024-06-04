@@ -29,10 +29,7 @@ function Navbar() {
                 <button
                     className="nav-btn"
                     onClick={showNavbar}>
-<<<<<<< HEAD
-=======
                     Menú
->>>>>>> 0417e631d4d12af8ecc1e5bac045d7291484230a
                 </button>
             </div>
         </div>

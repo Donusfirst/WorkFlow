@@ -13,6 +13,7 @@ function Biblioteca() {
     <div>
       <Navbar/>
       <div>
+        <h1>Hola mundo</h1>
         <BibliotecaModal/>
       </div>
       <Footer/>
