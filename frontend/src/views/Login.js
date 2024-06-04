@@ -60,7 +60,7 @@ function Login() {
         cambiarMostrarMensajeUsuario(true);
         setTimeout(() => {
           cambiarMostrarMensajeUsuario(false);
-        }, 10000); // Ocultar el mensaje después de 5 segundos
+        }, 10000); 
       }
     } catch (error) {
       console.error('Error al enviar solicitud al servidor:', error);

@@ -7,6 +7,8 @@ import Register from './views/Register';
 import PrivateRoute from './components/Auth';
 import PruebasNav from './views/PruebasNav';
 import MesaAyuda from './views/MesaAyuda';
+import Biblioteca from './views/Biblioteca';
+import MiPerfil from './views/MiPerfil';
 
 const App = () => {
   return (
@@ -16,8 +18,11 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/ticket" element={<Ticket/>}/>
           <Route path="/" element={<Home />} />
+          <Route path="/Perfil" element={<MiPerfil/>} />
+          <Route path="/PruebasNav" element={<PruebasNav />} />
           <Route path="/register" element={<PrivateRoute component={Register} />} />
           <Route path="/MesaAyuda" element={<MesaAyuda/>} />
+          <Route path="/BibliotecaDigital" element={<Biblioteca />} />
         </Routes>
       </div>
     </Router>

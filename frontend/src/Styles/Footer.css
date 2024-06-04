@@ -1,4 +1,3 @@
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -9,11 +8,8 @@
   position: fixed;
   width: 100%;
   bottom: 0;
-<<<<<<< HEAD
-  height: 60px; /* Establece una altura  */
-=======
-  height: 12%; /* Establece una altura fija para el footer */
->>>>>>> a475d292a90a852540cff4f081d86e647678cc6f
+  height: 60px; /* Establece una altura fija para el footer */
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
 }
 
 .Contenido-izq {
@@ -22,10 +18,11 @@
 }
 
 .company-logo {
-  height: 60px; /*Altura máxima del logo */
+  height: 60px; /* Altura máxima del logo */
 }
 
 .Contenido-Derecho {
   display: flex;
   align-items: center;
+  padding-right: 20px; /* Usa padding en lugar de margin para mantener la distancia */
 }

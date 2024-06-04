@@ -15,12 +15,11 @@ function Navbar() {
             <div className="navbar-header">
                 <h3>Task Progress</h3>
                 <nav ref={navRef} className="navbar-nav">
-                    <a href="/#">Inicio</a>
-                    <a href="/#">Mesa de ayuda</a>
+                    <a href="/PruebasNav">Inicio</a>
+                    <a href="/MesaAyuda">Mesa de ayuda</a>
                     <a href="/#">Recursos Humanos</a>
-                    <a href="/#">Biblioteca digital</a>
+                    <a href="/BibliotecaDigital">Biblioteca digital</a>
                     <a href="/Perfil">Mi Perfil</a>
-                    <a href="/">Cerrar Sesión</a>
                     <button
                         className="nav-btn nav-close-btn"
                         onClick={showNavbar}>
