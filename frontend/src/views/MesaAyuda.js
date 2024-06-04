@@ -7,10 +7,10 @@ import '../Styles/MesaAyuda.css';
 function MesaAyuda() {
 
   return (
-   <div className="wrapper">
-      <Navbar />
-      <div className="content">
-        <Ticket />
+   <div>
+      <Navbar/>
+      <div>
+        <Ticket/>
       </div>
       <Footer />
     </div>
